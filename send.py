@@ -92,7 +92,7 @@ except Exception:
     input('Exiting....\n Press Enter To Exit....')
     exit()
 print('\tChecking For Updates...')
-ver = urllib.request.urlopen("https://raw.githubusercontent.com/kamanati/Anon-SMS/master/.version").read().decode('utf-8')
+ver = urllib.request.urlopen("https://raw.githubusercontent.com/HACK3RY2J/Anon-SMS/master/.version").read().decode('utf-8')
 verl = ''
 try:
     verl = open(".version", 'r').read()
