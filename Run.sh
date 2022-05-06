@@ -4,7 +4,7 @@ clear
 echo -e "\e[4;31m Panda Hackers !!! \e[0m"
 echo -e "\e[1;32m Presents \e[0m"
 echo -e "\e[1;34m"
-figlet -f slant Anon-SMS
+figlet -f slant sms-anony
 echo "Press Enter To Launch"
 am start -a android.intent.action.VIEW -d https://instagram.com/hasanfq6?igshid=YmMyMTA2M2Y= > /dev/null 2>&1 &&
 read a1
