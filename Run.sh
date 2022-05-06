@@ -8,8 +8,6 @@ figlet -f slant sms-anony
 echo "Press Enter To Launch"
 am start -a android.intent.action.VIEW -d https://instagram.com/hasanfq6?igshid=YmMyMTA2M2Y= > /dev/null 2>&1 &&
 read a1
-if [[ -s update.pandahackers ]];then
-echo "All Requirements Found...."
 else
 echo 'Installing Requirements....'
 echo .
@@ -74,7 +72,6 @@ am start -a android.intent.action.VIEW -d https://instagram.com/hasanfq6?igshid=
 cd Anon-SMScp -r -f * .. > temp
 cd ..
 rm -rf  Anon-SMS >> temp
-rm update.pandahackers >> temp
 rm temp
 chmod +x Run.sh
 fi
