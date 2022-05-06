@@ -106,7 +106,12 @@ git clone https://github.com/Kamanati/sms-anony
 cd cd sms-anony
 sudo bash Run.sh
 ```
-
+### screenshot 1
+ ![whatsapp logo](Screenshot_20220506-182647_Messages.png)
+### screenshot 2
+ ![whatsapp logo](Screenshot_20220506-182330_Termux.png)
+### screenshot 3
+ ![whatsapp logo](Screenshot_20220506-182454_Termux.png)
 ### Find Me on :
 
 <p align="left">
