@@ -71,17 +71,6 @@ def Track() :
   print("There's No Ads.\nThank you for Your Time...")
   exit()
 
-def update():
-    stuff_to_update = ['send.py', 'Run.sh', '.version']
-    for fl in stuff_to_update:
-        dat = urllib.request.urlopen("https://raw.githubusercontent.com/HACK3RY2J/Anon-SMS/master/" + fl).read()
-        file = open(fl, 'wb')
-        file.write(dat)
-        file.close()
-    print('\n\t\tUpdated Successfull !!!!')
-    print('\tRun The Script Again...')
-    exit()
-
 clr()
 banner()
 try:
@@ -91,28 +80,6 @@ except Exception:
     print("\tPlease Connect To Internet To Continue...\n")
     input('Exiting....\n Press Enter To Exit....')
     exit()
-print('\tChecking For Updates...')
-ver = urllib.request.urlopen("https://raw.githubusercontent.com/HACK3RY2J/Anon-SMS/master/.version").read().decode('utf-8')
-verl = ''
-try:
-    verl = open(".version", 'r').read()
-except Exception:
-    pass
-if ver != verl:
-    print('\n\t\tAn Update is Available....')
-    print('\tUpdating Anon-SMS...')
-    update()
-print("Congratulation")
-print("Your Version is Up-To-Date")
-print('\n\tStarting Anon-SMS...\n')
-try:
-    noti = urllib.request.urlopen("https://raw.githubusercontent.com/HACK3RY2J/Anon-SMS/master/.notify").read().decode('utf-8')
-    if len(noti) > 10:
-        print('\nNotification : ' + noti + '\n')
-except Exception:
-    pass
-    
-    
     
 while True:
 	print("\033[0mThis Tool Is Used To Send Anonymous Messages")
