@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 clear
-echo -e "\e[4;31m Panda Hackers !!! \e[0m"
+echo -e "\e[4;31m HA_AN Hackers !!! \e[0m"
 echo -e "\e[1;32m Presents \e[0m"
 echo -e "\e[1;34m"
 figlet -f slant sms-anony
