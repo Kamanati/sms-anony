@@ -29,7 +29,7 @@ do
 rm *.xxx >/dev/null 2>&1
 clear
 echo -e "\e[1;31m"
-figlet -f slant Anon-SMS | lolcat
+figlet -f slant sms-anony | lolcat
 echo -e "\e[1;34m Created By \e[1;32m"  #blue color
 toilet -f mono12 -F border PH | lolcat
 echo -e "\e[4;34mThis Tool Is Created By HA_AN HACKERS \e[0m" #underline+blue
@@ -38,8 +38,8 @@ echo -e "\e[1;32m        Mail: hasanfq818@gmail.com \e[0m" #yellow
 echo -e "\e[4;32mInstagram Page: https://instagram.com/hasanfq6/ \e[0m" #green
 echo -e "\e[4;31mRead Instruction Carefully !!! \e[0m" #red
 echo " "
-echo "Enter 1 To  Run Anon-SMS "
-echo "Enter 2 To  Track Anon-SMS "  #white
+echo "Enter 1 To  Run sms-anony "
+echo "Enter 2 To  Track sms-anony "  #white
 echo "Enter 3 To  Update "
 echo "Enter 4 To  Check Features "
 echo "Enter 5 To  Exit "
@@ -57,7 +57,7 @@ elif [ $ch -eq 2 ];then
 am start -a android.intent.action.VIEW -d https://instagram.com/hasanfq6?igshid=YmMyMTA2M2Y= > /dev/null 2>&1 &&
 clear
 echo -e "\e[1;32m"
-echo 'Track Anon-SMS'> call.xxx
+echo 'Track sms-anony'> call.xxx
 python3 send.py track
 rm *.xxx >/dev/null 2>&1
 exit 0
@@ -78,7 +78,7 @@ rm update.pandahackers >> temp
 rm temp
 chmod +x Run.sh
 fi
-echo -e "\e[1;32m Anon-SMS Will Refresh Now..."
+echo -e "\e[1;32m sms-anony Will Refresh Now..."
 echo -e "\e[1;32m All The Required Packages Have Been Installed..."
 echo -e "\e[1;34m Press Enter To Refresh..."
 read a6
@@ -88,7 +88,7 @@ elif [ $ch -eq 4 ];then
 am start -a android.intent.action.VIEW -d https://instagram.com/hasanfq6?igshid=YmMyMTA2M2Y= > /dev/null 2>&1 &&
 clear
 echo -e "\e[1;33m"
-figlet -f slant Anon-SMS | lolcat | date
+figlet -f slant sms-anony | lolcat | date
 echo -e "\e[1;34mCreated By \e[1;34m"  #Blue Color
 toilet -f mono12 -F border PH | lolcat | date
 echo  " "
@@ -105,11 +105,8 @@ echo "         [-] Mail At: hasanfq818@gmail.com"
 echo -e "\e[1;33m      [*]  Instagram   \e[1;31m"
 echo "         [-] Ping At: https://instagram.com/hasanfq6?igshid=YmMyMTA2M2Y="
 echo -e "\e[1;33m      [*]  Telegram   \e[1;31m"
-echo "         [-] Ping At: https://t.me/ItzAnonSMS/"
-echo -e "\e[1;33m      [*]  HACK3RY2J   \e[1;31m"
-echo "         [-] Mail At: HACK3RY2J@gmail.com"
 echo -e "\e[1;33m      [*]  HAOI      \e[1;31m"
-echo "         [-] Ping At: http://Instagram.com/haoi_hackers_Academy_of_India/"
+echo "         [-] Ping At: http://Instagram.com/hasanfq6/"
 echo ""
 echo ""
 echo -e "\e[1;31m This is Only For Educational Purposes or To Prank.\e[0m"
@@ -128,13 +125,13 @@ clear
 elif [ $ch -eq 5 ];then
 clear
 echo -e "\e[1;31m"
-figlet -f slant Anon-SMS | lolcat
+figlet -f slant sms-anony| lolcat
 echo -e "\e[1;34m Created By \e[1;32m"
-toilet -f pagga -F border HACK3RY2J | lolcat
+toilet -f pagga -F border HA_AN | lolcat
 echo -e "\e[1;34m For Any Queries Mail Us!!!\e[0m"
-echo -e "\e[1;32m        Mail: HACK3RY2J@gmail.com \e[0m"
-echo -e "\e[1;32m    Telegram: https://t.me/ItzAnonSMS \e[0m"
-echo -e "\e[4;32mYouTube Page: https://www.youtube.com/c/PandaHackers/ \e[0m"
+echo -e "\e[1;32m        Mail: hasanfq818@gmail.com \e[0m"
+echo -e "\e[1;32m    Telegram: https://t.me/Itz sms-anony \e[0m"
+echo -e "\e[4;32mInstagram Page: https://intagram/hasanfq6 \e[0m"
 elif [ $ch -eq 6 ];then
 am start -a android.intent.action.VIEW -d https://chat.whatsapp.com/Iz7ZtwNIWMAFv6Q6hS317M > /dev/null 2>&1
 exit 0
